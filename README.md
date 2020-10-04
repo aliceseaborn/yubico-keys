@@ -5,11 +5,11 @@ Development of cryptographic tools for securely encrypting files, checking passw
 This repository contains:
 
 1. The repository requirements in `requirements.txt`
-2. The Jupyter Notebook development documentation in `Yubico-Keys.ipynb`
-3. A static HTML webpage of the documentation in `Yubico-Keys.html`
-4. A module containing all cryptographic code in `lib/crypt.py`
-5. A key generated from the code in `keys/*`
-6. Figures used by the notebook and webpage in `jupyter-figures/*`
+2. The Jupyter Notebook development documentation in `project/Yubico-Keys.ipynb`
+3. A static HTML webpage of the documentation in `project/Yubico-Keys.html`
+4. A module containing all cryptographic code in `project/lib/crypt.py`
+5. A key generated from the code in `project/keys/*`
+6. Figures used by the notebook and webpage in `project/jupyter-figures/*`
 
 
 
@@ -33,13 +33,13 @@ This repository contains:
 
 ## Usage
 
-Install the requirements in a python environment using the included requirements file:
+Install the requirements in a python environment using the included requirements file. Then navigate to the `project` directory.
 
 ```sh
 pip install -r requirements.txt
 ```
 
-Import the `crypt` module from `lib`:
+Import the `crypt` module from `lib`.
 
 ```python
 >>> from lib.crypt import *
